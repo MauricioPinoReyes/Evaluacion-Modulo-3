@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*menu desplegeble*/
+
+
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+
+
+header{
+    background: #162447;
+    width: 1000px;
+    height: 200px;
+    float: none;
+}
+    .header-texto{
+        width: 100%;
+        height: 78%;
+    }
+    .nav-header{
+        background-color:#708160;
+        width: 100%;
+        height: 22%;
+        float: none;
+    }
+        .menu-nav{
+            padding-left: 150px;
+
+        }
+
+            .nav-header ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .nav-header .item{
+                float: left;
+            }
+            
+            .nav-header .item a{
+                background-color: #708160;
+                color: white;
+                padding: 12px;
+                display: block;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+            
+            .nav-header #desple{
+                display: none;
+                position: absolute;
+            }
+            
+            .nav-header .item a:hover{
+                background-color: #162447;
+                color: cyan;
+            }
+            
+            .nav-header .item:hover #desple{
+                display: block;
+            }  
+
+.relleno{
+    width: 1000px;
+    height: 300px;
+    /*background-image: url(img/ilustracion12.png);*/
+}
+    .texto-relleno{
+        width: 80%;
+        height: 300px;
+        float: left;
+    }
+    .aside-relleno{
+        width: 20%;
+        height: 300px;
+        float: left;
+        background-color:#3f3f44;
+        color: white;
+    }
+
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: chocolate;
+
+}    
+    .nav-main{
+        background-color: #3f3f44;
+        width: 100%;
+        height: 15%;
+        float: none;
+    }
+    .menu-main{
+        padding-left: 250px;
+        padding-top: 40px;
+        
+    }
+
+            .nav-main a{
+                color: white;
+                text-decoration: none;
+                padding: 12px;
+                font-weight: bolder; 
+            }
+    aside{
+        background: green;
+        width: 20%;
+        height: 85%;
+        float: left;
+    }
+    
+    article{
+        background-color: yellow;
+        width: 80%;
+        height: 85%;
+        float: left;
+    }
+        .texto-article{
+            padding: 10px;
+            
+        }
+footer{
+    background-color: #162447;
+    color: white;
+}
